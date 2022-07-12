@@ -10931,8 +10931,9 @@ GameObject:
   - component: {fileID: 1445109497}
   - component: {fileID: 1445109501}
   - component: {fileID: 1445109502}
+  - component: {fileID: 1445109503}
   m_Layer: 0
-  m_Name: Misty_2_movimentacao_3.5x_0
+  m_Name: Misty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11071,8 +11072,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d1c7603246d7a0459b04453d4612b5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocity: 100
+  velocity: 150
   jump_force: 280
+--- !u!114 &1445109503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445109496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709eae8c3b4d6864d81fbb6ed7cb0f84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1445109501}
+  rb: {fileID: 1445109497}
 --- !u!1001 &1464036538
 PrefabInstance:
   m_ObjectHideFlags: 0
