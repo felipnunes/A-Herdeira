@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Menu_controller : MonoBehaviour
@@ -14,4 +12,6 @@ public class Menu_controller : MonoBehaviour
     {
         Application.Quit();
     }
+
+   
 }
