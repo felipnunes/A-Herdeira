@@ -11,6 +11,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: Andando_direita
     m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: Esta_no_chao
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6719165512750852508}
   m_Solo: 0
@@ -35,6 +38,9 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: Andando_direita
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: Esta_no_chao
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6719165512750852508}
@@ -147,6 +153,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: Andando_direita
     m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: Esta_no_chao
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8065352482720288450}
   m_Solo: 0
@@ -196,6 +205,9 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: Andando_esquerda
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: Esta_no_chao
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2132057500114548767}
@@ -414,6 +426,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: Andando_esquerda
     m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: Esta_no_chao
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7809180295537034302}
   m_Solo: 0
@@ -468,6 +483,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: Andando_esquerda
     m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: Esta_no_chao
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2132057500114548767}
   m_Solo: 0
@@ -491,7 +509,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Pulando_direita
+    m_ConditionEvent: Andando_direita
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: Esta_no_chao
@@ -657,6 +675,9 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: Andando_esquerda
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: Esta_no_chao
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2132057500114548767}
