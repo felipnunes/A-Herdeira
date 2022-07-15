@@ -8,11 +8,12 @@ public class Misty_controller : MonoBehaviour
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
+        
     }
 
     void Update()
     {
-
+        
         if (Input.GetKeyDown(KeyCode.Space))
         {
             rb.AddForce(new Vector2(0, 1) * jump_force);
@@ -36,8 +37,4 @@ public class Misty_controller : MonoBehaviour
         
     }
 
-    public float Get_velocity()
-    {
-        return velocity;
-    }
 }

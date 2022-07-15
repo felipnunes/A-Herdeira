@@ -5,13 +5,10 @@ using UnityEngine;
 public class Fundo_controller : MonoBehaviour
 {
 
-GameObject Misty;
-
+    GameObject Misty;
     GameObject fundo_2;
     GameObject fundo_3;
 
-
-    // Start is called before the first frame update
     void Start()
     {
         fundo_2 = GameObject.Find("Caverna_2");
@@ -19,7 +16,6 @@ GameObject Misty;
         Misty = GameObject.Find("Misty");
     }
 
- 
     private void FixedUpdate()
     {
 
