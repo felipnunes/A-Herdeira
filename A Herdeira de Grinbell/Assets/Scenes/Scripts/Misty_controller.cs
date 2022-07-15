@@ -35,4 +35,9 @@ public class Misty_controller : MonoBehaviour
         }
         
     }
+
+    public float Get_velocity()
+    {
+        return velocity;
+    }
 }
