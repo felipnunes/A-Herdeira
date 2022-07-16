@@ -8,11 +8,13 @@ public class Miaty_animation : MonoBehaviour
 
     [SerializeField]
     public Rigidbody2D rb;
+    
+    
 
     // Update is called once per frame
     void Update()
     {
-
+        
         //testa se está no chão
         if (rb.velocity.y == 0)
         {
