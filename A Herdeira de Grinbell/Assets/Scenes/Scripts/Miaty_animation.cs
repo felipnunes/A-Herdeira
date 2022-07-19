@@ -12,18 +12,7 @@ public class Miaty_animation : MonoBehaviour
     
 
     // Update is called once per frame
-    void Update()
-    {
-        
-        //testa se está no chão
-        if (rb.velocity.y == 0)
-        {
-            this.animator.SetBool("Esta_no_chao", true);
-        }
-        else
-        {
-            this.animator.SetBool("Esta_no_chao", false);
-        }
+    void Update() {
 
         //testa se esta andando para a direita
         if (rb.velocity.x > 0) 
@@ -46,7 +35,7 @@ public class Miaty_animation : MonoBehaviour
         }
 
         //testa se esta pulando para a direita
-        if (rb.velocity.y != 0 && rb.velocity.x > 0)
+        if (this.animator.GetBool("Esta_no_chao") == false && rb.velocity.x > 0)
         {
             this.animator.SetBool("Pulando_direita", true);
         }
@@ -55,4 +44,22 @@ public class Miaty_animation : MonoBehaviour
             this.animator.SetBool("Pulando_direita", false);
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        //checa se esta no chao
+        if (collision.tag == "chao")
+        {
+            this.animator.SetBool("Esta_no_chao", true);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "chao")
+        {
+            this.animator.SetBool("Esta_no_chao", false);
+        }
+    }
 }
+
