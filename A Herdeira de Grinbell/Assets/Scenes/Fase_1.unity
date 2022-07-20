@@ -311,7 +311,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &692112759
 GameObject:
@@ -395,7 +395,7 @@ Transform:
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &692112762
 MonoBehaviour:
@@ -409,6 +409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27d105c0dc47e7b4d806532ba61868c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  proxima_fase: Fase_2
 --- !u!50 &692112763
 Rigidbody2D:
   serializedVersion: 4
@@ -468,10 +469,20 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -0.556
       objectReference: {fileID: 0}
+    - target: {fileID: 4294335244422611977, guid: ba2c19a0e5bf18e4386989b74c93d540,
+        type: 3}
+      propertyPath: quantidade_magias
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294335244422611977, guid: ba2c19a0e5bf18e4386989b74c93d540,
+        type: 3}
+      propertyPath: quantidade_magias_rosa
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4294335244422611979, guid: ba2c19a0e5bf18e4386989b74c93d540,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4294335244422611979, guid: ba2c19a0e5bf18e4386989b74c93d540,
         type: 3}
@@ -2511,7 +2522,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1938995391
 Rigidbody2D:
@@ -2618,7 +2629,7 @@ Transform:
   - {fileID: 407780624}
   - {fileID: 335599686}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2983653984489121675
 PrefabInstance:
@@ -2630,7 +2641,7 @@ PrefabInstance:
     - target: {fileID: 2983653984567109486, guid: e52794f6532b2c64a94f4a2a4afd59a8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2983653984567109486, guid: e52794f6532b2c64a94f4a2a4afd59a8,
         type: 3}
@@ -2925,7 +2936,7 @@ GameObject:
   - component: {fileID: 8481222307625541713}
   - component: {fileID: 8481222307625541711}
   m_Layer: 0
-  m_Name: Plataforma_rosa
+  m_Name: Plataforma_rosa_vertical
   m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2943,6 +2954,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0756b14b58f2f1745b16184565a67197, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  misty: {fileID: 908874558}
 --- !u!61 &8481222307625541712
 BoxCollider2D:
   m_ObjectHideFlags: 0

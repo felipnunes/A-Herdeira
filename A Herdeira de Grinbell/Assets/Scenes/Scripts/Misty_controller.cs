@@ -6,6 +6,7 @@ public class Misty_controller : MonoBehaviour
     public float velocity = 100;
     public float jump_force = 300;
     bool on_ground;
+    public int quantidade_magias_rosa;
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();

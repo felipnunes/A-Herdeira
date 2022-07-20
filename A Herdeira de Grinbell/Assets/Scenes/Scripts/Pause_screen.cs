@@ -36,6 +36,12 @@ public class Pause_screen : MonoBehaviour
     public void Carrega_menu()
     {
         SceneManager.LoadScene("Menu");
+        Time.timeScale = 1f;
+    }
+
+    public void Recarrega_fase()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     
 }

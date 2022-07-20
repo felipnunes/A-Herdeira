@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class portal_controller : MonoBehaviour
 {
+    public string proxima_fase;
     public void Carrega_cenas(string cena)
     {
         SceneManager.LoadScene(cena);
@@ -13,7 +14,7 @@ public class portal_controller : MonoBehaviour
     {
         if (collision.tag == "Misty")
         {
-            Carrega_cenas("Fase_2");
+            Carrega_cenas(proxima_fase);
         }
     }
 }
