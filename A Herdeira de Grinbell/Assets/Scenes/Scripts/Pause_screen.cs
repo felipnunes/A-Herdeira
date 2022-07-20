@@ -42,6 +42,7 @@ public class Pause_screen : MonoBehaviour
     public void Recarrega_fase()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Time.timeScale = 1f;
     }
     
 }

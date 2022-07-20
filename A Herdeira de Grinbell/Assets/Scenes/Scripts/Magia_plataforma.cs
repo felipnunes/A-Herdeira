@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Magia_mouse : MonoBehaviour
+public class Magia_plataforma : MonoBehaviour
 {
     bool esta_sendo_segurado = false;
     [SerializeField] GameObject misty;
