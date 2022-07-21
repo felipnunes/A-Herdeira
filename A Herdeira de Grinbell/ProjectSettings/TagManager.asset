@@ -8,6 +8,8 @@ TagManager:
   - chao
   - Rosa_vertical
   - Rosa_horizontal
+  - Orbe_vermelha
+  - Orbe_rosa
   layers:
   - Default
   - TransparentFX

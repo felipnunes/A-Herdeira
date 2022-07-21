@@ -171,7 +171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1172,6 +1172,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocity: 150
   jump_force: 280
+  quantidade_magias_rosa: 0
+  quantidade_magias_vermelha: 0
 --- !u!114 &4294335245922613891
 MonoBehaviour:
   m_ObjectHideFlags: 0
