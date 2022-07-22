@@ -5,13 +5,6 @@ using UnityEngine;
 public class Orb_controller : MonoBehaviour
 {
    [SerializeField] GameObject misty;
-
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Misty" && this.tag == "Orbe_rosa")

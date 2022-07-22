@@ -8,8 +8,6 @@ public class Magia_plataforma : MonoBehaviour
     private bool misty_colidindo = false;
     [SerializeField] GameObject misty;
    
-
-    // Update is called once per frame
     void Update()
     {
         Vector2 mouse_position = Input.mousePosition;
@@ -45,7 +43,7 @@ public class Magia_plataforma : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Misty")
+        if (collision.tag == "Misty" || collision.tag == "chao")
         {
             misty_colidindo = true;
         }
@@ -53,7 +51,7 @@ public class Magia_plataforma : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.tag == "Misty")
+        if (collision.tag == "Misty" || collision.tag == "chao")
         {
             misty_colidindo = false;
         }
