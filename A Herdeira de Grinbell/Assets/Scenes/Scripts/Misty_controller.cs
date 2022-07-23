@@ -5,7 +5,7 @@ public class Misty_controller : MonoBehaviour
     Rigidbody2D rb;
     public float velocity = 100;
     public float jump_force = 300;
-    bool on_ground;
+    private bool on_ground;
     public int quantidade_magias_rosa;
     public int quantidade_magias_vermelha;
     void Start()
@@ -46,6 +46,11 @@ public class Misty_controller : MonoBehaviour
         {
             on_ground = true;
         }
+    }
+
+    public bool GetOnGround()
+    {
+        return on_ground;
     }
 
 }
