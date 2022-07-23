@@ -20,7 +20,7 @@ public class Pause_screen : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape) && pausado == false)
         {
             pausado = true;
-            Time.timeScale = 0f;
+            //Time.timeScale = 0f;
             Pause_canvas.SetActive(true);
             //toca som de pause
             if (this.name == "Pause_Canvas")
@@ -32,7 +32,7 @@ public class Pause_screen : MonoBehaviour
         else if(Input.GetKeyDown(KeyCode.Escape) && pausado == true)
         {
             pausado = false;
-            Time.timeScale = 1f;
+            //Time.timeScale = 1f;
             Pause_canvas.SetActive(false);
 
             //toca som de pause
@@ -44,16 +44,6 @@ public class Pause_screen : MonoBehaviour
         }   
     }
 
-    public void Carrega_menu()
-    {
-        SceneManager.LoadScene("Menu");
-        Time.timeScale = 1f;
-    }
-
-    public void Recarrega_fase()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        Time.timeScale = 1f;
-    }
+  
     
 }
