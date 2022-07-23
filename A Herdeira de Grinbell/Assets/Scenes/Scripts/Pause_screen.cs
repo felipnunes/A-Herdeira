@@ -22,6 +22,11 @@ public class Pause_screen : MonoBehaviour
             pausado = true;
             Time.timeScale = 0f;
             Pause_canvas.SetActive(true);
+            //toca som de pause
+            if (this.name == "Pause_Canvas")
+            {
+                this.GetComponent<AudioSource>().Play();
+            }
             
         }
         else if(Input.GetKeyDown(KeyCode.Escape) && pausado == true)
@@ -29,6 +34,12 @@ public class Pause_screen : MonoBehaviour
             pausado = false;
             Time.timeScale = 1f;
             Pause_canvas.SetActive(false);
+
+            //toca som de pause
+            if (this.name == "Pause_Canvas")
+            {
+                this.GetComponent<AudioSource>().Play();
+            }
 
         }   
     }
