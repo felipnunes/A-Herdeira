@@ -826,6 +826,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1165307642235787558, guid: 6c0b532b0acb5cc4b8d261e1ac89ef3f,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1917810100303240104, guid: 6c0b532b0acb5cc4b8d261e1ac89ef3f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1917810100303240104, guid: 6c0b532b0acb5cc4b8d261e1ac89ef3f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1917810100303240104, guid: 6c0b532b0acb5cc4b8d261e1ac89ef3f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1348995105}
+    - target: {fileID: 1917810100303240104, guid: 6c0b532b0acb5cc4b8d261e1ac89ef3f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1917810100303240104, guid: 6c0b532b0acb5cc4b8d261e1ac89ef3f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 1917810100303240104, guid: 6c0b532b0acb5cc4b8d261e1ac89ef3f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3943335223961195002, guid: 6c0b532b0acb5cc4b8d261e1ac89ef3f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2618,6 +2653,12 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!82 &1348995105 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1165307642235787558, guid: 6c0b532b0acb5cc4b8d261e1ac89ef3f,
+    type: 3}
+  m_PrefabInstance: {fileID: 968684638}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1549102103 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7358919098345150754, guid: 46d340988fd0203479451e422155d616,

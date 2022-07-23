@@ -19,6 +19,8 @@ public class Mouse_controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        //mouse controoler
         Vector3 mouse_position = Input.mousePosition;
         mouse_position.z = 0.5f;
 
@@ -36,5 +38,6 @@ public class Mouse_controller : MonoBehaviour
         {
             this.GetComponent<SpriteRenderer>().sprite = neutro;
         }
+
     }
 }
