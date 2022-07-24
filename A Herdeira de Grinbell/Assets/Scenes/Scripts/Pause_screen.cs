@@ -41,7 +41,8 @@ public class Pause_screen : MonoBehaviour
                 this.GetComponent<AudioSource>().Play();
             }
 
-        }   
+        }  
+        
     }
 
   
