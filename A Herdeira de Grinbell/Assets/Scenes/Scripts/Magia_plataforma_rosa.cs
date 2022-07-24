@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Magia_plataforma : MonoBehaviour
+public class Magia_plataforma_rosa : MonoBehaviour
 {
     private bool esta_sendo_segurado = false;
     private bool misty_colidindo = false;
@@ -40,6 +40,7 @@ public class Magia_plataforma : MonoBehaviour
             esta_sendo_segurado = true;
             misty.GetComponent<Misty_controller>().quantidade_magias_rosa -= 1;
         }
+        
         
     }
 

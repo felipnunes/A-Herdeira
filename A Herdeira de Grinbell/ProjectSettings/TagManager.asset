@@ -10,6 +10,7 @@ TagManager:
   - Rosa_horizontal
   - Orbe_vermelha
   - Orbe_rosa
+  - Bloco_vermelho
   layers:
   - Default
   - TransparentFX
