@@ -312,7 +312,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &519420033
 AudioSource:
@@ -505,6 +505,11 @@ PrefabInstance:
         type: 3}
       propertyPath: quantidade_magias_rosa
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294335244422611977, guid: ba2c19a0e5bf18e4386989b74c93d540,
+        type: 3}
+      propertyPath: quantidade_magias_vermelha
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4294335244422611979, guid: ba2c19a0e5bf18e4386989b74c93d540,
         type: 3}
@@ -2871,7 +2876,7 @@ Transform:
   - {fileID: 407780624}
   - {fileID: 335599686}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2983653984489121675
 PrefabInstance:
@@ -3259,7 +3264,7 @@ PrefabInstance:
     - target: {fileID: 8966505722442241968, guid: 0ee5c3a82a9774242897bd69ef5cedc9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8966505722442241968, guid: 0ee5c3a82a9774242897bd69ef5cedc9,
         type: 3}

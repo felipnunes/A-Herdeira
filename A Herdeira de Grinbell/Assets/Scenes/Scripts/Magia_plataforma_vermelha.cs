@@ -13,17 +13,22 @@ public class Magia_plataforma_vermelha : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(1) && animator.GetBool("ativa"))
             {
-                animator.SetBool("ativa", false);
+                this.animator.SetBool("ativa", false);
                 misty.GetComponent<Misty_controller>().quantidade_magias_vermelha -= 1;
-          
+
             }
             else if (Input.GetMouseButtonDown(1) && animator.GetBool("ativa") == false)
             {
-                animator.SetBool("ativa", true);
+                this.animator.SetBool("ativa", true);
                 misty.GetComponent<Misty_controller>().quantidade_magias_vermelha -= 1;
 
             }
         }
+    }
+
+    private void OnMouseDown()
+    {
+        
     }
 
 }
