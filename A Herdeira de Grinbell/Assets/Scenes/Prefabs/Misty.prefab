@@ -120,7 +120,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 2
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 537652419ea34884dbc523fcde1eea25, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -158,6 +158,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocity: 150
   jump_force: 380
+  quantidade_magias_rosa: 0
+  quantidade_magias_vermelha: 0
 --- !u!114 &4294335244422611976
 MonoBehaviour:
   m_ObjectHideFlags: 0

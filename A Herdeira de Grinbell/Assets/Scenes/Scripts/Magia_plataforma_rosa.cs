@@ -34,14 +34,11 @@ public class Magia_plataforma_rosa : MonoBehaviour
     {
         if (Input.GetMouseButton(0) && misty.GetComponent<Misty_controller>().quantidade_magias_rosa > 0 && misty_colidindo == false && misty.GetComponent<Misty_controller>().GetOnGround())
         {
-            Vector2 mouse_position = Input.mousePosition;
-            mouse_position = Camera.main.ScreenToWorldPoint(mouse_position);
+    
 
             esta_sendo_segurado = true;
             misty.GetComponent<Misty_controller>().quantidade_magias_rosa -= 1;
-        }
-        
-        
+        }        
     }
 
     private void OnMouseUp()

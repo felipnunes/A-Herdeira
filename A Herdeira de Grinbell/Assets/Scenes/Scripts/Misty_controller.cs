@@ -25,18 +25,14 @@ public class Misty_controller : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.A)) 
-        {
-            rb.velocity = new Vector2(-1 * velocity * Time.deltaTime, rb.velocity.y);
-        }
-        else if (Input.GetKey(KeyCode.D))
-        {
-            rb.velocity = new Vector2(1 * velocity * Time.deltaTime, rb.velocity.y);
-        }
-        else
-        {
-            rb.velocity = new Vector2(0, rb.velocity.y);
-        }
+
+        float direction = Input.GetAxisRaw("Horizontal");
+        rb.velocity = new Vector2(direction * velocity * Time.deltaTime, rb.velocity.y);
+
+        //else
+        //{
+         //   rb.velocity = new Vector2(0, rb.velocity.y);
+        //}
         
     }
 

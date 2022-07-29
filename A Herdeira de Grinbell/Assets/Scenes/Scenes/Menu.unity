@@ -518,7 +518,6 @@ GameObject:
   - component: {fileID: 443777696}
   - component: {fileID: 443777695}
   - component: {fileID: 443777699}
-  - component: {fileID: 443777698}
   - component: {fileID: 443777700}
   m_Layer: 5
   m_Name: Novo_jogo
@@ -598,7 +597,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Fase_1
+          m_StringArgument: Cutscene
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 443777699}
@@ -649,18 +648,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 443777693}
   m_CullTransparentMesh: 0
---- !u!114 &443777698
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 443777693}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb50ed40c731b6342abb5170c435c69d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &443777699
 AudioSource:
   m_ObjectHideFlags: 0
