@@ -34,8 +34,6 @@ public class Magia_plataforma_rosa : MonoBehaviour
     {
         if (Input.GetMouseButton(0) && misty.GetComponent<Misty_controller>().quantidade_magias_rosa > 0 && misty_colidindo == false && misty.GetComponent<Misty_controller>().GetOnGround())
         {
-    
-
             esta_sendo_segurado = true;
             misty.GetComponent<Misty_controller>().quantidade_magias_rosa -= 1;
         }        
@@ -52,9 +50,14 @@ public class Magia_plataforma_rosa : MonoBehaviour
         {
             misty_colidindo = true;
         }
-        if (collision.tag == "chao")
+        else if (collision.tag == "chao")
         {
             misty_colidindo = true;
+            Debug.Log("colidiu com a tag chao");
+        }
+        else
+        {
+            misty_colidindo = false;
         }
     }
 

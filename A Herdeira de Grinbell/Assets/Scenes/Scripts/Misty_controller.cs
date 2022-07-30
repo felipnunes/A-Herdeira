@@ -3,8 +3,8 @@
 public class Misty_controller : MonoBehaviour
 {
     Rigidbody2D rb;
-    public float velocity = 100;
-    public float jump_force = 300;
+    public float velocity;
+    public float jump_force;
     private bool on_ground;
     public int quantidade_magias_rosa;
     public int quantidade_magias_vermelha;
@@ -15,7 +15,6 @@ public class Misty_controller : MonoBehaviour
 
     void Update()
     {
-        
         if (Input.GetKeyDown(KeyCode.Space) && on_ground)
         {
             rb.AddForce(new Vector2(0, 1) * jump_force);
@@ -25,15 +24,8 @@ public class Misty_controller : MonoBehaviour
 
     private void FixedUpdate()
     {
-
         float direction = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(direction * velocity * Time.deltaTime, rb.velocity.y);
-
-        //else
-        //{
-         //   rb.velocity = new Vector2(0, rb.velocity.y);
-        //}
-        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

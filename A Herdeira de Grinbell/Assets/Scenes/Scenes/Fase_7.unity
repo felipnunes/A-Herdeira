@@ -186,7 +186,7 @@ PrefabInstance:
     - target: {fileID: 8966505722442241971, guid: 0ee5c3a82a9774242897bd69ef5cedc9,
         type: 3}
       propertyPath: proxima_fase
-      value: Menu
+      value: Fase_8
       objectReference: {fileID: 0}
     - target: {fileID: 8966505722442241982, guid: 0ee5c3a82a9774242897bd69ef5cedc9,
         type: 3}
