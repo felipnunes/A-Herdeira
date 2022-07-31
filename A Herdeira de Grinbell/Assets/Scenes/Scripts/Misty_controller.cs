@@ -8,6 +8,7 @@ public class Misty_controller : MonoBehaviour
     private bool on_ground;
     public int quantidade_magias_rosa;
     public int quantidade_magias_vermelha;
+
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
@@ -18,8 +19,8 @@ public class Misty_controller : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && on_ground)
         {
             rb.AddForce(new Vector2(0, 1) * jump_force);
-            on_ground = false;
         }
+        Debug.Log(rb.velocity.x.ToString());
     }
 
     private void FixedUpdate()
@@ -28,17 +29,27 @@ public class Misty_controller : MonoBehaviour
         rb.velocity = new Vector2(direction * velocity * Time.deltaTime, rb.velocity.y);
     }
 
+
+    public bool GetOnGround()
+    {
+        return on_ground;
+    }
+    
+  
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "chao")
+        if(collision.tag == "chao")
         {
             on_ground = true;
         }
     }
 
-    public bool GetOnGround()
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        return on_ground;
+        if (collision.tag == "chao")
+        {
+            on_ground = false;
+        }
     }
 
 }

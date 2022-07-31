@@ -232,7 +232,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2064854044}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &72065777
 SpriteRenderer:
@@ -314,7 +314,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2064854044}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &91156358
 SpriteRenderer:
@@ -458,7 +458,7 @@ PrefabInstance:
     - target: {fileID: 879736349550912194, guid: 7edc6ab6aad1dd64289772857435d980,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 879736349550912194, guid: 7edc6ab6aad1dd64289772857435d980,
         type: 3}
@@ -870,7 +870,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2064854044}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &716742369
 SpriteRenderer:
@@ -923,6 +923,229 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &744591945
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 325489843341801289, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489843341801291, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_Name
+      value: Dialogo_Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489843341801294, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1023236692}
+    - target: {fileID: 325489843341801295, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489843341801295, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489843341801295, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489843341801295, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489843341801295, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489843341801295, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489843341801295, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489843341801295, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489843341801295, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489843341801295, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489843341801295, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489843341801295, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489843341801295, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489843341801295, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489843341801295, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489843341801295, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489843341801295, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489843341801295, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489843341801295, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489843341801295, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489843341801295, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489844420009387, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: textos.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489844420009387, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: textos.Array.data[0]
+      value: "O vale verde por muitos anos viveu em paz e harmonia. At\xE9 que um
+        dia, uma onda de magia negra invadiu e corrompeu o vale, extinguindo quase
+        toda a vida na regi\xE3o e destruindo tudo em seu caminho."
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489844420009387, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: textos.Array.data[1]
+      value: "O grande mago viajante Grimbell encontrou o vale corrompido, e vendo
+        as mazelas causadas pela onda de corrup\xE7\xE3o, adentrou as cavernas da
+        montanha mais alto do vale, superando-as para alcan\xE7ar o topo."
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489844420009387, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: textos.Array.data[2]
+      value: "Ap\xF3s realizar a dif\xEDcil subida pelas cavernas o mago ergueu seu
+        cetro m\xE1gico e utilizou sua magia para purificar todo o vale de uma s\xF3
+        vez, trazendo de volta a antiga gl\xF3ria do belo vale verde."
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489844420009387, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: textos.Array.data[3]
+      value: "Estando agora a salvo, a popula\xE7\xE3o do vale cresceu, e uma vila
+        se instaurou ali. O mago ent\xE3o deixou sua vida de andarilho e passou o
+        resto de seus dias zelando pelo povo do vale, que agora seria rebatizado
+        em sua homenagem como o Vale de Grimbell."
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489844420009387, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: textos.Array.data[4]
+      value: "Antes de sua morte, o mago teve uma vis\xE3o prof\xE9tica. Ele registrou-a
+        num pergaminho e entregou \xE0 chefe da vila juntamente a seu cetro m\xE1gico,
+        dizendo as seguintes palavras:"
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489844420009387, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: textos.Array.data[5]
+      value: "Grimbell - Um dia, sem aviso, a corrup\xE7\xE3o retornar\xE1 ao vale.
+        Passe este cetro para as pr\xF3ximas gera\xE7\xF5es at\xE9 que chegue este
+        momento. Quando for a hora, apenas a filha mais velha e herdeira da vila
+        ser\xE1 capaz de empunhar meu cetro m\xE1gico, herdar meus poderes e vencer
+        as cavernas da montanha mais alto para ent\xE3o purificar o vale novamente."
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489844420009387, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: textos.Array.data[6]
+      value: "Por 300 anos a vila prosperou. No entanto, n\xE3o se esqueceram da
+        mensagem de Grimbell e passaram o cetro e a profecia adiante. At\xE9 que
+        o dia da profecia finalmente chegou."
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489844420009387, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: textos.Array.data[7]
+      value: "Como o mago previra, a onda de corrup\xE7\xE3o retornou ao vale e tomou-o
+        novamente, destruindo e matando tudo em seu caminho."
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489844420009387, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: textos.Array.data[8]
+      value: "Kaya, a chefe da vila, lembrando-se da antiga profecia, correu para
+        buscar o antigo cetro deixado pelo mago, e como ordenado, entregou-o \xE0
+        Misty, sua filha mais velha e herdeira."
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489844420009387, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: textos.Array.data[9]
+      value: "O cetro no mesmo momento reconheceu Misty como sua herdeira e brilhou,
+        preenchendo o sal\xE3o."
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489844420009387, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: textos.Array.data[10]
+      value: "E assim, Misty aceitou seu destino e partiu na manh\xE3 seguinte para
+        a base da montanha mais alta, pronta para arriscar tudo para seguir os passos
+        de seu antecessor, vencer suas cavernas trai\xE7oeiras, alcan\xE7ar o topo
+        e salvar o vale uma vez mais."
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489844420009397, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 325489844420009397, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c48288cf63b14a439f9a6e7d1a524c9, type: 3}
 --- !u!1 &841019799
 GameObject:
   m_ObjectHideFlags: 0
@@ -1182,7 +1405,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1236442260
 GameObject:
@@ -1622,7 +1845,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2064854044}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1512588200
 SpriteRenderer:
@@ -1977,8 +2200,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 2064854044}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1797917244
 SpriteRenderer:
@@ -2537,6 +2760,7 @@ Transform:
   - {fileID: 841019800}
   - {fileID: 611814560}
   - {fileID: 425690497}
+  - {fileID: 1797917243}
   - {fileID: 72065776}
   - {fileID: 91156357}
   - {fileID: 1512588199}
@@ -2551,7 +2775,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2064854043}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 50a00e5655203904d86134ad44ec7e6c, type: 3}

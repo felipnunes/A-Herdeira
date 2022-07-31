@@ -1,65 +1,53 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class Miaty_animation : MonoBehaviour
 {
-    //SerializeFueld permite visualizar essa variavel privada no editor, permitindo que eu arraste um objeto para ele
-    [SerializeField]
-    private Animator animator;
 
-    [SerializeField]
-    public Rigidbody2D rb;
-    
-    
+    Rigidbody2D rb;
+    Animator animator;
+    SpriteRenderer spriteRenderer;
+    private void Start()
+    {
+        rb = this.GetComponent<Rigidbody2D>();
+        animator = this.GetComponent<Animator>();
+        spriteRenderer = this.GetComponent<SpriteRenderer>();
+    }
+
+
 
     // Update is called once per frame
     void Update() {
 
-        //testa se esta andando para a direita
-        if (rb.velocity.x > 0) 
-        {
-            this.animator.SetBool("Andando_direita",true);
-        }
-        else
-        {
-            this.animator.SetBool("Andando_direita", false);
-        }
-
-        //testa se esta andando para a esquerda
         if (rb.velocity.x < 0)
         {
-            this.animator.SetBool("Andando_esquerda", true);
+            spriteRenderer.flipX = true;
+            animator.SetBool("andando",true);
+        }
+        else if (rb.velocity.x > 0)
+        {
+            spriteRenderer.flipX = false;
+            animator.SetBool("andando", true);
         }
         else
         {
-            this.animator.SetBool("Andando_esquerda", false);
+            animator.SetBool("andando", false);
         }
 
-        //testa se esta pulando para a direita
-        if (this.animator.GetBool("Esta_no_chao") == false && rb.velocity.x > 0)
+        if (this.GetComponent<Misty_controller>().GetOnGround())
         {
-            this.animator.SetBool("Pulando_direita", true);
+            animator.SetBool("on_ground",true);
         }
-        else
-        {
-            this.animator.SetBool("Pulando_direita", false);
+        else{
+            animator.SetBool("on_ground", false);
         }
+        
+
+
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        //checa se esta no chao
-        if (collision.tag == "chao")
-        {
-            this.animator.SetBool("Esta_no_chao", true);
-        }
-    }
 
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.tag == "chao")
-        {
-            this.animator.SetBool("Esta_no_chao", false);
-        }
-    }
+    
 }
 

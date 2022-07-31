@@ -539,7 +539,7 @@ GameObject:
   - component: {fileID: 914345214}
   m_Layer: 0
   m_Name: Grid
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -601,12 +601,12 @@ PrefabInstance:
     - target: {fileID: 4294335244422611979, guid: ba2c19a0e5bf18e4386989b74c93d540,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.3
+      value: -5.6
       objectReference: {fileID: 0}
     - target: {fileID: 4294335244422611979, guid: ba2c19a0e5bf18e4386989b74c93d540,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.14
+      value: -1.09
       objectReference: {fileID: 0}
     - target: {fileID: 4294335244422611979, guid: ba2c19a0e5bf18e4386989b74c93d540,
         type: 3}
@@ -2130,21 +2130,33 @@ CompositeCollider2D:
         Y: -51200000
       - X: -83200008
         Y: -51200000
-    - - X: 38399996
-        Y: -38400000
-      - X: -31999998
-        Y: -38400000
-      - X: -31999998
-        Y: -51200000
-      - X: 38399996
-        Y: -51200000
     - - X: -32000000
+        Y: -38400100
+      - X: -64000037
+        Y: -38400100
+      - X: -64000096
+        Y: -38400041
+      - X: -64000096
         Y: -38400000
       - X: -83200000
         Y: -38400000
       - X: -83200000
         Y: -51200000
       - X: -32000000
+        Y: -51200000
+    - - X: 38399996
+        Y: -38400000
+      - X: -6399900
+        Y: -38400000
+      - X: -6399900
+        Y: -38400041
+      - X: -6399959
+        Y: -38400100
+      - X: -31999998
+        Y: -38400100
+      - X: -31999998
+        Y: -51200000
+      - X: 38399996
         Y: -51200000
   m_CompositePaths:
     m_Paths:
