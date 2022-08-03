@@ -2728,6 +2728,7 @@ GameObject:
   - component: {fileID: 2064854045}
   - component: {fileID: 2064854046}
   - component: {fileID: 2064854047}
+  - component: {fileID: 2064854048}
   m_Layer: 0
   m_Name: Cutsenes
   m_TagString: Untagged
@@ -2933,6 +2934,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2064854048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064854043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ca65364c03c1846998a4d7eb9035aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  texto_anim: {fileID: 2064854046}
 --- !u!1 &2118382650
 GameObject:
   m_ObjectHideFlags: 0
