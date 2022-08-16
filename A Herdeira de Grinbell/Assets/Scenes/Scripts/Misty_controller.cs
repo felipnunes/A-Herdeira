@@ -20,7 +20,7 @@ public class Misty_controller : MonoBehaviour
         {
             rb.AddForce(new Vector2(0, 1) * jump_force);
         }
-        Debug.Log(rb.velocity.x.ToString());
+        Debug.Log(transform.position.x);
     }
 
     private void FixedUpdate()

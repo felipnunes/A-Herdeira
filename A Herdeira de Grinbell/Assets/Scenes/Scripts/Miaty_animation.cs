@@ -8,8 +8,10 @@ public class Miaty_animation : MonoBehaviour
     Rigidbody2D rb;
     Animator animator;
     SpriteRenderer spriteRenderer;
+    public float initial_position_x;
     private void Start()
     {
+        initial_position_x = this.transform.position.x;
         rb = this.GetComponent<Rigidbody2D>();
         animator = this.GetComponent<Animator>();
         spriteRenderer = this.GetComponent<SpriteRenderer>();
