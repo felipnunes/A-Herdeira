@@ -10,12 +10,12 @@ using UnityEngine.UI;
         private bool esperando_input;
 
 
-    private void Start()
-    {
-        esperando_input = false;
-    }
-    private void Awake()
+        private void Start()
         {
+            esperando_input = false;
+        }
+        private void Awake()
+            {
             
             audio_source = this.GetComponent<AudioSource>();
             texto_atual = this.GetComponent<Text>();

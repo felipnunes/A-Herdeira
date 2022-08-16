@@ -945,6 +945,11 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1023236692}
+    - target: {fileID: 325489843341801294, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 325489843341801295, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
         type: 3}
       propertyPath: m_Pivot.x
@@ -1407,6 +1412,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1149264610 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 325489844420009397, guid: 9c48288cf63b14a439f9a6e7d1a524c9,
+    type: 3}
+  m_PrefabInstance: {fileID: 744591945}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1236442260
 GameObject:
   m_ObjectHideFlags: 0
@@ -2361,7 +2378,7 @@ RectTransform:
   - {fileID: 2044620132}
   - {fileID: 1566199146}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2767,7 +2784,7 @@ Transform:
   - {fileID: 1512588199}
   - {fileID: 716742368}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &2064854045
 AudioSource:
@@ -2947,6 +2964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texto_anim: {fileID: 2064854046}
+  texto: {fileID: 1149264610}
 --- !u!1 &2118382650
 GameObject:
   m_ObjectHideFlags: 0

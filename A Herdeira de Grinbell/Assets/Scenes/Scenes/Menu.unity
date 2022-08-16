@@ -1687,8 +1687,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 709eae8c3b4d6864d81fbb6ed7cb0f84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 4294335245922613889}
-  rb: {fileID: 4294335245922613893}
 --- !u!1 &4294335245922613892
 GameObject:
   m_ObjectHideFlags: 0
@@ -1791,7 +1789,7 @@ SpriteRenderer:
   m_Sprite: {fileID: 7982724092647178874, guid: c739946143c371f49811cdd1ac540320,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1.12, y: 1.12}
