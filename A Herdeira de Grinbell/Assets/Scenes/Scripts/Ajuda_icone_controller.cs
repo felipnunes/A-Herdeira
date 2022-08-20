@@ -5,6 +5,7 @@ using UnityEngine;
 public class Ajuda_icone_controller : MonoBehaviour
 {
     [SerializeField] GameObject canvas;
+    [SerializeField] GameObject pergaminho;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +18,7 @@ public class Ajuda_icone_controller : MonoBehaviour
         if (collision.tag == "Misty")
         {
             canvas.SetActive(true);
+            //pergaminho.SetActive(true);
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -24,6 +26,7 @@ public class Ajuda_icone_controller : MonoBehaviour
         if (collision.tag == "Misty")
         {
             canvas.SetActive(false);
+            //pergaminho.SetActive(false);
         }
     }
 }
