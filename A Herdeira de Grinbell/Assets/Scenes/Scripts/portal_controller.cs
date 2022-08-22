@@ -17,4 +17,5 @@ public class portal_controller : MonoBehaviour
             Carrega_cenas(proxima_fase);
         }
     }
+    
 }
