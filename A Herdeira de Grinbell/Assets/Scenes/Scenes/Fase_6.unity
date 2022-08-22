@@ -1229,8 +1229,7 @@ PrefabInstance:
     - target: {fileID: 3721605082594936411, guid: 484b596fa8146374ca088fad76718def,
         type: 3}
       propertyPath: m_Text
-      value: "Use o bot\xE3o direito do mouse para ativar ou desativas plataformas
-        vermelhas."
+      value: "Use o bot\xE3o [Dir] do mouse para desativar as plataformas vermelhas."
       objectReference: {fileID: 0}
     - target: {fileID: 3721605082594936411, guid: 484b596fa8146374ca088fad76718def,
         type: 3}

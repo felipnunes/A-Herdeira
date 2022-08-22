@@ -44,8 +44,9 @@ public class Miaty_animation : MonoBehaviour
         else{
             animator.SetBool("on_ground", false);
         }
-        
 
+        
+        
 
     }
 

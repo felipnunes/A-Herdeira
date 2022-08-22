@@ -21,10 +21,10 @@ public class Fundo_controller : MonoBehaviour
         if (Misty.GetComponent<Rigidbody2D>().velocity.x != 0)
         {
 
-        Vector2 vector_fundo_2 = new Vector2(Misty.GetComponent<Rigidbody2D>().velocity.x * 0.1f, Misty.GetComponent<Rigidbody2D>().velocity.y * 0.01f);
+        Vector2 vector_fundo_2 = new Vector2(Misty.GetComponent<Rigidbody2D>().velocity.x * 0.03f, Misty.GetComponent<Rigidbody2D>().velocity.y * 0.006f);
         fundo_2.GetComponent<Rigidbody2D>().velocity = vector_fundo_2;
 
-        Vector2 vector_fundo_3 = new Vector2(Misty.GetComponent<Rigidbody2D>().velocity.x * 0.05f, fundo_3.GetComponent<Rigidbody2D>().velocity.y);
+        Vector2 vector_fundo_3 = new Vector2(Misty.GetComponent<Rigidbody2D>().velocity.x * 0.015f, fundo_3.GetComponent<Rigidbody2D>().velocity.y);
         fundo_3.GetComponent<Rigidbody2D>().velocity = vector_fundo_3;
 
         }

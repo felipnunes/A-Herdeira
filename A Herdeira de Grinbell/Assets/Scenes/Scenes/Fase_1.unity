@@ -499,7 +499,8 @@ PrefabInstance:
     - target: {fileID: 3721605082594936411, guid: 484b596fa8146374ca088fad76718def,
         type: 3}
       propertyPath: m_Text
-      value: "Use o bot\xE3o esquerdo do mouse para arastar plataformas rosas."
+      value: "[A] e [D] andam e [Espa\xE7o] pula.\nUse o bot\xE3o [Esq] do mouse
+        para movimentar plataformas rosas.\n[Esc] pausa o jogo."
       objectReference: {fileID: 0}
     - target: {fileID: 3721605082673002400, guid: 484b596fa8146374ca088fad76718def,
         type: 3}

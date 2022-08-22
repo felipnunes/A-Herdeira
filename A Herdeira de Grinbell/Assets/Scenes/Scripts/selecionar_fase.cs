@@ -5,12 +5,6 @@ using UnityEngine;
 public class selecionar_fase : MonoBehaviour
 {
     [SerializeField] GameObject panel_fases;
-    void Start()
-    {
-      
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape)){

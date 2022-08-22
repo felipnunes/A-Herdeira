@@ -1767,7 +1767,7 @@ PrefabInstance:
     - target: {fileID: 5240918858514966869, guid: 6c0b532b0acb5cc4b8d261e1ac89ef3f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5240918858514966869, guid: 6c0b532b0acb5cc4b8d261e1ac89ef3f,
         type: 3}
@@ -2167,7 +2167,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &901468882
 GameObject:
@@ -2211,7 +2211,7 @@ Transform:
   m_Children:
   - {fileID: 284402135}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &994949352
 GameObject:
@@ -2994,7 +2994,7 @@ PrefabInstance:
     - target: {fileID: 3721605082594936411, guid: 484b596fa8146374ca088fad76718def,
         type: 3}
       propertyPath: m_Text
-      value: As orbes rosas aumentam seu estoque de magias rosas em 1.
+      value: Os orbes rosas aumentam seu estoque de magias rosas em 1.
       objectReference: {fileID: 0}
     - target: {fileID: 3721605082673002400, guid: 484b596fa8146374ca088fad76718def,
         type: 3}
