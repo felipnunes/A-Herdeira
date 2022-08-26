@@ -712,6 +712,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 588553975}
+    - target: {fileID: 2420411887387659122, guid: 29773747d564c6c4f937c9e2b8ac4e1f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Fase_13
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29773747d564c6c4f937c9e2b8ac4e1f, type: 3}
 --- !u!1 &443777693
@@ -1948,6 +1953,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 588553975}
+    - target: {fileID: 2420411887387659122, guid: 29773747d564c6c4f937c9e2b8ac4e1f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Fase_15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29773747d564c6c4f937c9e2b8ac4e1f, type: 3}
 --- !u!1 &1023236689
@@ -2912,6 +2922,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 588553975}
+    - target: {fileID: 2420411887387659122, guid: 29773747d564c6c4f937c9e2b8ac4e1f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Fase_12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29773747d564c6c4f937c9e2b8ac4e1f, type: 3}
 --- !u!1001 &1479234074
@@ -3041,6 +3056,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 588553975}
+    - target: {fileID: 2420411887387659122, guid: 29773747d564c6c4f937c9e2b8ac4e1f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Fase_14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29773747d564c6c4f937c9e2b8ac4e1f, type: 3}
 --- !u!95 &1575877256 stripped
