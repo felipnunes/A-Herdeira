@@ -12,6 +12,18 @@ public class Orb_controller : MonoBehaviour
     {
         if (collision.tag == "Misty")
         {
+
+            Transform[] children = this.GetComponentsInChildren<Transform>();
+
+            foreach (Transform child in children)
+            {
+                if (child.tag == "Orb_Light")
+                {
+                    child.gameObject.SetActive(false);
+                }
+            }
+
+
             audio_source.Play();
             sprite_renderer.enabled = false;
             circle_collider.enabled = false;

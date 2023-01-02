@@ -11,6 +11,7 @@ TagManager:
   - Orbe_vermelha
   - Orbe_rosa
   - Bloco_vermelho
+  - Orb_Light
   layers:
   - Default
   - TransparentFX
@@ -21,7 +22,7 @@ TagManager:
   - 
   - 
   - chao
-  - 
+  - Grid
   - 
   - 
   - 

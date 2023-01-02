@@ -1,13 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.LWRP;
 
 public class Magia_plataforma_rosa : MonoBehaviour
 {
     private bool esta_sendo_segurado = false;
     private bool misty_colidindo = false;
     [SerializeField] GameObject misty;
-   
+
+    private void Start()
+    {
+    }
     void Update()
     {
         if (misty.GetComponent<Misty_controller>().GetOnGround())
