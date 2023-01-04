@@ -113,6 +113,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: chao_base (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4395247552909288372, guid: 9e46a81a4ab27284e896a2a901bce589,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1064138260121837896, guid: 9b2b4dfeddaf61840a58fb373f27bdde,
+        type: 3}
     - target: {fileID: 5483184287575540116, guid: 9e46a81a4ab27284e896a2a901bce589,
         type: 3}
       propertyPath: m_RootOrder
@@ -188,6 +194,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: chao_base
       objectReference: {fileID: 0}
+    - target: {fileID: 4395247552909288372, guid: 9e46a81a4ab27284e896a2a901bce589,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5300423900939816879, guid: 9b2b4dfeddaf61840a58fb373f27bdde,
+        type: 3}
     - target: {fileID: 5483184287575540116, guid: 9e46a81a4ab27284e896a2a901bce589,
         type: 3}
       propertyPath: m_RootOrder
@@ -318,6 +330,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: chao_rosa_grama 1 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8663082977901540561, guid: 936d2a4752ec92545b06cb0da15f0498,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6251219172631847452, guid: 9b2b4dfeddaf61840a58fb373f27bdde,
+        type: 3}
     m_RemovedComponents:
     - {fileID: 398880461597233794, guid: 936d2a4752ec92545b06cb0da15f0498, type: 3}
     - {fileID: 4321755655162602894, guid: 936d2a4752ec92545b06cb0da15f0498, type: 3}

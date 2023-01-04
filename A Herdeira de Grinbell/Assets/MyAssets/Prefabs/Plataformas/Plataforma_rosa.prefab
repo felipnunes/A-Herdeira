@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4911535894992349977}
   - component: {fileID: 2708884911387992527}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 3791538077164310110}
   - component: {fileID: 3791538077164310111}
   - component: {fileID: 3791538077164310108}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Plataforma_rosa
   m_TagString: chao
   m_Icon: {fileID: 0}
@@ -259,6 +259,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: chao_rosa_grama 1 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5348975589324382900, guid: 936d2a4752ec92545b06cb0da15f0498,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 398880461597233794, guid: 936d2a4752ec92545b06cb0da15f0498, type: 3}
     - {fileID: 4321755655162602894, guid: 936d2a4752ec92545b06cb0da15f0498, type: 3}
@@ -280,6 +285,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: chao_rosa_grama_borda
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099821101444979170, guid: 6ee5167c74b9db94399079bfe98a513f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6632133477705110932, guid: 6ee5167c74b9db94399079bfe98a513f,
         type: 3}
@@ -357,6 +367,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: chao_rosa_grama_borda_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 202466535382635860, guid: 46d340988fd0203479451e422155d616,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7358919098345150754, guid: 46d340988fd0203479451e422155d616,
         type: 3}

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4978945386274881091}
   - component: {fileID: 4978945386274881116}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: chao_verde_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4978945386612751897}
   - component: {fileID: 4978945386612751898}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: chao_verde
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -172,7 +172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4978945386727732777}
   - component: {fileID: 4978945386727732778}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: chao_verde_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -253,7 +253,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4978945386799244115}
   - component: {fileID: 4978945386799244140}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: chao_verde_base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -334,7 +334,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4978945387366742371}
   - component: {fileID: 4978945387366742396}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: chao_verde_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -418,7 +418,7 @@ GameObject:
   - component: {fileID: 6392555775198868103}
   - component: {fileID: 5067293640131113329}
   - component: {fileID: 7744142920507054433}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rocha
   m_TagString: chao
   m_Icon: {fileID: 0}
@@ -534,7 +534,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4978945387496476630}
   - component: {fileID: 4978945387496476631}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: chao_verde_lado
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -615,7 +615,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4978945387569806979}
   - component: {fileID: 4978945387569807004}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: chao_verde_lado_down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -696,7 +696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4978945387786237230}
   - component: {fileID: 4978945387786237231}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: chao_verde_lado_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -777,7 +777,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4978945388185652085}
   - component: {fileID: 4978945388185652086}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: chao_base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -860,7 +860,7 @@ GameObject:
   - component: {fileID: 9180159877299170220}
   - component: {fileID: 201510075672889783}
   - component: {fileID: 6042133897663054232}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Texto
   m_TagString: Untagged
   m_Icon: {fileID: 0}

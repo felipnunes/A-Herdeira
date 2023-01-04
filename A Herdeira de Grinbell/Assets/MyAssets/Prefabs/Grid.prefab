@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3415394475276064440}
   - component: {fileID: 3415394475276064442}
   - component: {fileID: 3415394475276064443}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Decorations
   m_TagString: chao
   m_Icon: {fileID: 0}
@@ -203,7 +203,7 @@ GameObject:
   - component: {fileID: 3415394476357307083}
   - component: {fileID: 3415394476357307080}
   - component: {fileID: 3415394476357307081}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Redezined_Ground
   m_TagString: chao
   m_Icon: {fileID: 0}
@@ -3470,7 +3470,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3415394476614983770}
   - component: {fileID: 3415394476614983771}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grid
   m_TagString: chao
   m_Icon: {fileID: 0}
