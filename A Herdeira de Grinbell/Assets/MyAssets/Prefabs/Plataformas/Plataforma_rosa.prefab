@@ -65,7 +65,7 @@ MonoBehaviour:
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
-  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffSize: 2.5
   m_ShapeLightFalloffOffset: {x: 0, y: 0}
   m_ShapePath:
   - {x: -0.93277323, y: -0.31656885, z: 0}
@@ -192,6 +192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   misty: {fileID: 0}
+  componente_luz_plataforma_rosa: {fileID: 0}
 --- !u!1001 &3791538075341458924
 PrefabInstance:
   m_ObjectHideFlags: 0

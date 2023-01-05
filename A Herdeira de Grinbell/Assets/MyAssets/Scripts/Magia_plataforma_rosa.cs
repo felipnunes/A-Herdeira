@@ -2,15 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.LWRP;
+using UnityEngine.Experimental.Rendering.Universal;
 
 public class Magia_plataforma_rosa : MonoBehaviour
 {
     private bool esta_sendo_segurado = false;
     private bool misty_colidindo = false;
     [SerializeField] GameObject misty;
-
+    private float valor_inicial_seno;
+    private UnityEngine.Experimental.Rendering.Universal.Light2D componente_luz_plataforma_rosa;
     private void Start()
     {
+        valor_inicial_seno = 0; 
+        componente_luz_plataforma_rosa = gameObject.GetComponentInChildren<UnityEngine.Experimental.Rendering.Universal.Light2D>();
     }
     void Update()
     {
@@ -19,19 +23,29 @@ public class Magia_plataforma_rosa : MonoBehaviour
             Vector2 mouse_position = Input.mousePosition;
             mouse_position = Camera.main.ScreenToWorldPoint(mouse_position);
 
+
+            
             if (esta_sendo_segurado && this.name == "Plataforma_rosa_vertical" && misty_colidindo == false)
             {
+                OscilaLuz(componente_luz_plataforma_rosa);
                 this.gameObject.transform.localPosition = new Vector3(this.gameObject.transform.localPosition.x, mouse_position.y, 0);
             }
             if (esta_sendo_segurado && this.name == "Plataforma_rosa_horizontal" && misty_colidindo == false)
             {
+                OscilaLuz(componente_luz_plataforma_rosa);
                 this.gameObject.transform.localPosition = new Vector3(mouse_position.x, this.gameObject.transform.localPosition.y, 0);
+            }
+            if (!esta_sendo_segurado)
+            {
+                componente_luz_plataforma_rosa.intensity = 1f;
             }
         }
         else if (esta_sendo_segurado)
         {
+ 
             esta_sendo_segurado = false;
         }
+        
     }
 
     private void OnMouseDown()
@@ -71,5 +85,15 @@ public class Magia_plataforma_rosa : MonoBehaviour
         {
             misty_colidindo = false;
         }
+    }
+
+    private void OscilaLuz(UnityEngine.Experimental.Rendering.Universal.Light2D light)
+    {
+        if (valor_inicial_seno == 360)
+        {
+            valor_inicial_seno = 0;
+        }
+        light.intensity = 4.5f + Mathf.Sin(valor_inicial_seno) * 0.5f;
+        valor_inicial_seno += 0.06f;
     }
 }

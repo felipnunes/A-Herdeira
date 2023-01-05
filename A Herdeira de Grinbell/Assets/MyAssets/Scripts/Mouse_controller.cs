@@ -9,9 +9,12 @@ public class Mouse_controller : MonoBehaviour
     public Sprite vermelho;
 
     public Transform pointer;
+
+    private UnityEngine.Experimental.Rendering.Universal.Light2D componente_luz_mouse;
     // Start is called before the first frame update
     void Start()
     {
+        componente_luz_mouse = gameObject.GetComponentInChildren<UnityEngine.Experimental.Rendering.Universal.Light2D>();
         neutro = this.GetComponent<SpriteRenderer>().sprite;
         Cursor.visible = false;
     }
@@ -28,14 +31,17 @@ public class Mouse_controller : MonoBehaviour
 
         if (Input.GetMouseButton(0))
         {
+            componente_luz_mouse.color = Color.magenta;
             this.GetComponent<SpriteRenderer>().sprite = rosa;
         }
         else if (Input.GetMouseButton(1))
         {
+            componente_luz_mouse.color = Color.red;
             this.GetComponent<SpriteRenderer>().sprite = vermelho;
         }
         else
         {
+            componente_luz_mouse.color = Color.cyan;
             this.GetComponent<SpriteRenderer>().sprite = neutro;
         }
 

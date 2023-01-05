@@ -39,11 +39,9 @@ public class Miaty_animation : MonoBehaviour
 
         if (this.GetComponent<Misty_controller>().GetOnGround())
         {
-            Debug.Log("1");
             animator.SetBool("on_ground",true);
         }
         else{
-            Debug.Log("0");
             animator.SetBool("on_ground", false);
         }
 
