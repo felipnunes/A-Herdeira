@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 700398438317828609}
   - component: {fileID: 700398438317828608}
   - component: {fileID: 700398438317828611}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Plataforma_rosa 1
   m_TagString: chao
   m_Icon: {fileID: 0}
@@ -35,6 +35,7 @@ Transform:
   - {fileID: 2840750526770988913}
   - {fileID: 6901343029534798843}
   - {fileID: 7686327398600069976}
+  - {fileID: 3283271753445434780}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -103,6 +104,96 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   misty: {fileID: 0}
+--- !u!1 &3285448576045562330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3283271753445434780}
+  - component: {fileID: 5356798638753122179}
+  m_Layer: 8
+  m_Name: Point Light 2D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3283271753445434780
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3285448576045562330}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.14, y: -0.027672827, z: -5.892759}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 700398438317828638}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5356798638753122179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3285448576045562330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 1
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 1
+  m_Color: {r: 0.5660378, g: 0.23762906, b: 0.510659, a: 1}
+  m_Intensity: 1
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: 00000000
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 1
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 1.05
+  m_PointLightOuterRadius: 1.82
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 2.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -1.448317, y: -0.26968777, z: 0}
+  - {x: -1.2940481, y: -0.29944122, z: 0}
+  - {x: -1.1033328, y: -0.29944146, z: 0}
+  - {x: -0.8172617, y: -0.33612764, z: 0}
+  - {x: 0.07675409, y: -0.3097329, z: 0}
+  - {x: 0.9149475, y: -0.31707, z: 0}
+  - {x: 1.2376938, y: -0.30820704, z: 0}
+  - {x: 1.3843961, y: -0.30820727, z: 0}
+  - {x: 1.5479593, y: -0.293128, z: 0}
+  - {x: 1.6044502, y: -0.1614623, z: 0}
+  - {x: 1.6191211, y: 0.0072944164, z: 0}
+  - {x: 1.5824451, y: 0.20540005, z: 0}
+  - {x: 1.5112839, y: 0.29598647, z: 0}
+  - {x: 1.3843961, y: 0.33747083, z: 0}
+  - {x: 1.1496716, y: 0.3594826, z: 0}
+  - {x: 0.065036535, y: 0.3433795, z: 0}
+  - {x: -1.0857093, y: 0.34337837, z: 0}
+  - {x: -1.2573714, y: 0.3609112, z: 0}
+  - {x: -1.4043064, y: 0.32676417, z: 0}
+  - {x: -1.4847617, y: 0.19949132, z: 0}
+  - {x: -1.4994321, y: 0.023397803, z: 0}
+  - {x: -1.5141022, y: -0.1306845, z: 0}
 --- !u!1001 &700398438517261283
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -114,6 +205,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: chao_rosa_grama_borda
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099821101444979170, guid: 6ee5167c74b9db94399079bfe98a513f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6632133477705110932, guid: 6ee5167c74b9db94399079bfe98a513f,
         type: 3}
@@ -247,6 +343,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: chao_rosa_grama 1 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5348975589324382900, guid: 936d2a4752ec92545b06cb0da15f0498,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 398880461597233794, guid: 936d2a4752ec92545b06cb0da15f0498, type: 3}
     - {fileID: 4321755655162602894, guid: 936d2a4752ec92545b06cb0da15f0498, type: 3}
@@ -268,6 +369,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: chao_rosa_grama_borda_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 202466535382635860, guid: 46d340988fd0203479451e422155d616,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7358919098345150754, guid: 46d340988fd0203479451e422155d616,
         type: 3}
@@ -401,6 +507,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: chao_rosa_grama 1 2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5348975589324382900, guid: 936d2a4752ec92545b06cb0da15f0498,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4321755655162602894, guid: 936d2a4752ec92545b06cb0da15f0498, type: 3}
     - {fileID: 398880461597233794, guid: 936d2a4752ec92545b06cb0da15f0498, type: 3}
@@ -477,6 +588,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: chao_rosa_grama 1 2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5348975589324382900, guid: 936d2a4752ec92545b06cb0da15f0498,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4321755655162602894, guid: 936d2a4752ec92545b06cb0da15f0498, type: 3}

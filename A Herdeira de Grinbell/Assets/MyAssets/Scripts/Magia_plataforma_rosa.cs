@@ -93,7 +93,7 @@ public class Magia_plataforma_rosa : MonoBehaviour
         {
             valor_inicial_seno = 0;
         }
-        light.intensity = 4.5f + Mathf.Sin(valor_inicial_seno) * 0.5f;
+        light.intensity = 4.5f + Mathf.Sin(valor_inicial_seno) * 0.5f * Time.deltaTime;
         valor_inicial_seno += 0.06f;
     }
 }

@@ -8,6 +8,25 @@ public class Orb_controller : MonoBehaviour
    [SerializeField] AudioSource audio_source;
    [SerializeField] SpriteRenderer sprite_renderer;
    [SerializeField] CircleCollider2D circle_collider;
+
+    private float movimento_em_y = 0;
+    private float rotacao_em_z = 0;
+    private UnityEngine.Experimental.Rendering.Universal.Light2D componente_luz_orbe;
+
+    private void Start()
+    {
+        componente_luz_orbe = gameObject.GetComponentInChildren<UnityEngine.Experimental.Rendering.Universal.Light2D>();
+    }
+    private void Update()
+    {
+        componente_luz_orbe.intensity = 1.5f + Mathf.Sin(movimento_em_y) * 0.25f;
+        this.transform.position = new Vector2(this.transform.position.x, this.transform.position.y + Mathf.Sin(movimento_em_y) * 0.1f * Time.deltaTime);
+        this.transform.rotation = Quaternion.Euler(0, 0, Mathf.Sin(rotacao_em_z) * 8) ;
+        movimento_em_y += 0.04f;
+        rotacao_em_z += 0.04f;
+    }
+
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Misty")
