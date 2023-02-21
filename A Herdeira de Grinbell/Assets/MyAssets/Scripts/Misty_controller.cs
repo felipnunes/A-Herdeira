@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using UnityEngine.InputSystem;
+
 
 public class Misty_controller : MonoBehaviour
 {
@@ -19,30 +21,8 @@ public class Misty_controller : MonoBehaviour
     }
 
     void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space) && on_ground || Input.GetButtonDown("Jump") && on_ground)
-        {
-            rb.AddForce(new Vector2(0, 1) * jump_force);
-        }
-
-        // Get the bounds of the collider
-        Bounds bounds = capsuleCollider.bounds;
-
-        // Calculate the start position of the ray as the center of the bottom edge of the collider bounds
-        Vector2 startPos = new Vector2(bounds.center.x, bounds.min.y);
-
-        // Shoot a ray from the start position downward
-        RaycastHit2D hit = Physics2D.Raycast(startPos, Vector2.down, 0.1f, chaoLayer);
-        Debug.DrawRay(startPos,new Vector2(0,-1) , Color.yellow);
-        // Check if the ray hit anything
-        if (hit.collider != null)
-        {
-            on_ground = true;
-        }
-        else
-        {
-            on_ground = false;
-        }
+    {   
+        CheckForOnGround();
 
 
     }
@@ -55,10 +35,40 @@ public class Misty_controller : MonoBehaviour
     }
 
 
+    public void Jump(InputAction.CallbackContext context)
+    {
+        
+        if (on_ground && context.started)
+        {
+            rb.AddForce(new Vector2(0, 1) * jump_force);
+        }
+    }
+
     public bool GetOnGround()
     {
         return on_ground;
     }
+    private void CheckForOnGround()
+    {
 
+        // Get the bounds of the collider
+        Bounds bounds = capsuleCollider.bounds;
 
+        // Calculate the start position of the ray as the center of the bottom edge of the collider bounds
+        Vector2 startPos = new Vector2(bounds.center.x, bounds.min.y);
+
+        // Shoot a ray from the start position downward
+        RaycastHit2D hit = Physics2D.Raycast(startPos, Vector2.down, 0.1f, chaoLayer);
+        Debug.DrawRay(startPos, new Vector2(0, -1), Color.yellow);
+        // Check if the ray hit anything
+        if (hit.collider != null)
+        {
+            on_ground = true;
+        }
+        else
+        {
+            on_ground = false;
+        }
+
+    }
 }

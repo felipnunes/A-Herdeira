@@ -12,6 +12,7 @@ TagManager:
   - Orbe_rosa
   - Bloco_vermelho
   - Orb_Light
+  - GamepadCursor
   layers:
   - Default
   - TransparentFX

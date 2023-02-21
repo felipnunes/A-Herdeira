@@ -407,6 +407,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4763ce68bda50034f9d590d46ea89731, type: 3}
+--- !u!1001 &296980452
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5972051617742263383, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263383, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263383, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263383, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263383, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263383, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263383, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263383, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263383, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263383, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263383, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263401, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_Name
+      value: Gamepad_Mouse_icon
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8725cf5cd46f71049b41a5da5429775f, type: 3}
 --- !u!1001 &299305577
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -6,11 +6,12 @@ using UnityEngine.Experimental.Rendering.Universal;
 
 public class Magia_plataforma_rosa : MonoBehaviour
 {
-    private bool esta_sendo_segurado = false;
+    public bool esta_sendo_segurado = false;
     private bool misty_colidindo = false;
-    [SerializeField] GameObject misty;
+    [SerializeField] public GameObject misty;
     private float valor_inicial_seno;
     private UnityEngine.Experimental.Rendering.Universal.Light2D componente_luz_plataforma_rosa;
+
     private void Start()
     {
         valor_inicial_seno = 0; 
@@ -28,12 +29,28 @@ public class Magia_plataforma_rosa : MonoBehaviour
             if (esta_sendo_segurado && this.name == "Plataforma_rosa_vertical" && misty_colidindo == false)
             {
                 OscilaLuz(componente_luz_plataforma_rosa);
-                this.gameObject.transform.localPosition = new Vector3(this.gameObject.transform.localPosition.x, mouse_position.y, 0);
+                if (GameObject.Find("Mouse_icon").GetComponent<SpriteRenderer>().enabled == true)
+                {
+                    this.gameObject.transform.localPosition = new Vector3(this.gameObject.transform.localPosition.x, mouse_position.y, 0);
+
+                }
+                else
+                {
+                    this.gameObject.transform.localPosition = new Vector3(this.gameObject.transform.localPosition.x, GameObject.Find("Gamepad_Mouse_icon").transform.position.y, 0);
+                }
             }
             if (esta_sendo_segurado && this.name == "Plataforma_rosa_horizontal" && misty_colidindo == false)
             {
                 OscilaLuz(componente_luz_plataforma_rosa);
-                this.gameObject.transform.localPosition = new Vector3(mouse_position.x, this.gameObject.transform.localPosition.y, 0);
+
+                if (GameObject.Find("Mouse_icon").GetComponent<SpriteRenderer>().enabled == true)
+                {
+                    this.gameObject.transform.localPosition = new Vector3(mouse_position.x, this.gameObject.transform.localPosition.y, 0);
+                }
+                else
+                {
+                    this.gameObject.transform.localPosition = new Vector3(GameObject.Find("Gamepad_Mouse_icon").transform.position.x, this.gameObject.transform.localPosition.y, 0);
+                }
             }
             if (!esta_sendo_segurado)
             {
@@ -48,6 +65,7 @@ public class Magia_plataforma_rosa : MonoBehaviour
         
     }
 
+    //Check for mouse input to check if the player is holding the Rose plataform.
     private void OnMouseDown()
     {
         if (Input.GetMouseButton(0) && misty.GetComponent<Misty_controller>().quantidade_magias_rosa > 0 && misty_colidindo == false && misty.GetComponent<Misty_controller>().GetOnGround())
@@ -62,12 +80,16 @@ public class Magia_plataforma_rosa : MonoBehaviour
         esta_sendo_segurado = false;
     }
 
+
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //Check for misty collisions
         if (collision.tag == "Misty")
         {
             misty_colidindo = true;
         }
+        //Check for Ground collisions
         else if (collision.tag == "chao")
         {
             misty_colidindo = true;

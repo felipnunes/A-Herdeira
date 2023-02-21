@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2004,6 +2004,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ced685f45eb31e44af2781b3109f0a6, type: 3}
+--- !u!1001 &1460403961
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5972051617742263383, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263383, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263383, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263383, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263383, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263383, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263383, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263383, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263383, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263383, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263383, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263401, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_Name
+      value: Gamepad_Mouse_icon
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8725cf5cd46f71049b41a5da5429775f, type: 3}
 --- !u!1001 &1463552294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7710,6 +7779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0756b14b58f2f1745b16184565a67197, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  esta_sendo_segurado: 0
   misty: {fileID: 903361455}
 --- !u!1 &8302881221649288527
 GameObject:

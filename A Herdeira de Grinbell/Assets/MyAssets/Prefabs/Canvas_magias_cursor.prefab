@@ -572,7 +572,7 @@ GameObject:
   - component: {fileID: 5949237061838578631}
   - component: {fileID: 5949237061838578628}
   m_Layer: 5
-  m_Name: Canvas_magias
+  m_Name: Canvas_magias_cursor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

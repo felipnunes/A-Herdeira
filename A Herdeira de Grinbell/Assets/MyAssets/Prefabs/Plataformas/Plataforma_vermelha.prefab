@@ -269,6 +269,9 @@ MonoBehaviour:
   animator: {fileID: 7886267008355296093}
   misty: {fileID: 0}
   inicia_ativo: 0
+  chaoLayer:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!95 &7886267008355296093
 Animator:
   serializedVersion: 3
