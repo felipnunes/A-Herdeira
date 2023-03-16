@@ -183,6 +183,51 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263396, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263396, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_ActionId
+      value: 374ca5c0-62aa-440b-8608-379cf67d46cc
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263396, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[5].m_ActionId
+      value: dbe1cc3a-f006-4e68-81e7-fdae6b9d23f0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263396, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_ActionName
+      value: misty/Reestart[/DualShock4GamepadHID/buttonNorth]
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263396, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[5].m_ActionName
+      value: Cursor/Move_cursor[/DualShock4GamepadHID/rightStick]
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263396, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[5].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263396, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[5].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972051617742263396, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[5].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 779658547}
+    - target: {fileID: 5972051617742263396, guid: 8725cf5cd46f71049b41a5da5429775f,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[5].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5972051617742263401, guid: 8725cf5cd46f71049b41a5da5429775f,
         type: 3}
       propertyPath: m_Name
@@ -797,6 +842,106 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0.00079872384
       objectReference: {fileID: 0}
+    - target: {fileID: 4023918297251786334, guid: ba2c19a0e5bf18e4386989b74c93d540,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4023918297251786334, guid: ba2c19a0e5bf18e4386989b74c93d540,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_ActionId
+      value: 6b6f21bf-fabf-4523-b255-5987d76b7ddf
+      objectReference: {fileID: 0}
+    - target: {fileID: 4023918297251786334, guid: ba2c19a0e5bf18e4386989b74c93d540,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_ActionId
+      value: 767ba8b2-3403-4880-a292-dc7bfe2ca3f0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4023918297251786334, guid: ba2c19a0e5bf18e4386989b74c93d540,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_ActionId
+      value: 374ca5c0-62aa-440b-8608-379cf67d46cc
+      objectReference: {fileID: 0}
+    - target: {fileID: 4023918297251786334, guid: ba2c19a0e5bf18e4386989b74c93d540,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_ActionName
+      value: Cursor/Botao_esquerdo[/DualShock4GamepadHID/leftTrigger]
+      objectReference: {fileID: 0}
+    - target: {fileID: 4023918297251786334, guid: ba2c19a0e5bf18e4386989b74c93d540,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_ActionName
+      value: Cursor/Botao_direito[/DualShock4GamepadHID/rightTrigger]
+      objectReference: {fileID: 0}
+    - target: {fileID: 4023918297251786334, guid: ba2c19a0e5bf18e4386989b74c93d540,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_ActionName
+      value: misty/Reestart[/DualShock4GamepadHID/buttonNorth]
+      objectReference: {fileID: 0}
+    - target: {fileID: 4023918297251786334, guid: ba2c19a0e5bf18e4386989b74c93d540,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4023918297251786334, guid: ba2c19a0e5bf18e4386989b74c93d540,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4023918297251786334, guid: ba2c19a0e5bf18e4386989b74c93d540,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4023918297251786334, guid: ba2c19a0e5bf18e4386989b74c93d540,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4023918297251786334, guid: ba2c19a0e5bf18e4386989b74c93d540,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 908874562}
+    - target: {fileID: 4023918297251786334, guid: ba2c19a0e5bf18e4386989b74c93d540,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 908874562}
+    - target: {fileID: 4023918297251786334, guid: ba2c19a0e5bf18e4386989b74c93d540,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4023918297251786334, guid: ba2c19a0e5bf18e4386989b74c93d540,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4023918297251786334, guid: ba2c19a0e5bf18e4386989b74c93d540,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Jump
+      objectReference: {fileID: 0}
+    - target: {fileID: 4023918297251786334, guid: ba2c19a0e5bf18e4386989b74c93d540,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Reestart
+      objectReference: {fileID: 0}
+    - target: {fileID: 4023918297251786334, guid: ba2c19a0e5bf18e4386989b74c93d540,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Reestart
+      objectReference: {fileID: 0}
+    - target: {fileID: 4023918297251786334, guid: ba2c19a0e5bf18e4386989b74c93d540,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4023918297251786334, guid: ba2c19a0e5bf18e4386989b74c93d540,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4294335244422611977, guid: ba2c19a0e5bf18e4386989b74c93d540,
         type: 3}
       propertyPath: m_Enabled
@@ -815,7 +960,7 @@ PrefabInstance:
     - target: {fileID: 4294335244422611977, guid: ba2c19a0e5bf18e4386989b74c93d540,
         type: 3}
       propertyPath: quantidade_magias_vermelha
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4294335244422611979, guid: ba2c19a0e5bf18e4386989b74c93d540,
         type: 3}
@@ -925,6 +1070,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba2c19a0e5bf18e4386989b74c93d540, type: 3}
+--- !u!114 &779658547 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5972051617742263402, guid: 8725cf5cd46f71049b41a5da5429775f,
+    type: 3}
+  m_PrefabInstance: {fileID: 255205021}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7875609a206d2914189eb77c19c115e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &846047112
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1174,6 +1331,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 738991077}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &908874562 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4294335244422611977, guid: ba2c19a0e5bf18e4386989b74c93d540,
+    type: 3}
+  m_PrefabInstance: {fileID: 738991077}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908874558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1c7603246d7a0459b04453d4612b5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!61 &908874568
 BoxCollider2D:
   m_ObjectHideFlags: 0

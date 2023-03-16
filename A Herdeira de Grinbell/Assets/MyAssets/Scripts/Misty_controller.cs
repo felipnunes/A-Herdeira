@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
-
+using UnityEngine.SceneManagement;
 
 public class Misty_controller : MonoBehaviour
 {
@@ -41,6 +41,15 @@ public class Misty_controller : MonoBehaviour
         if (on_ground && context.started)
         {
             rb.AddForce(new Vector2(0, 1) * jump_force);
+        }
+    }
+
+    public void Reestart(InputAction.CallbackContext context)
+    {
+
+        if (context.started)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 

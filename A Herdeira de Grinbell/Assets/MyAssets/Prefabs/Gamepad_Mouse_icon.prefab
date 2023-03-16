@@ -236,6 +236,25 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 767ba8b2-3403-4880-a292-dc7bfe2ca3f0
     m_ActionName: Cursor/Botao_direito[/DualShock4GamepadHID/rightTrigger]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 374ca5c0-62aa-440b-8608-379cf67d46cc
+    m_ActionName: misty/Reestart[/DualShock4GamepadHID/buttonNorth]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5972051617742263402}
+        m_MethodName: MoveCursor
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: dbe1cc3a-f006-4e68-81e7-fdae6b9d23f0
+    m_ActionName: Cursor/Move_cursor[/DualShock4GamepadHID/rightStick]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Cursor

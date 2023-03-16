@@ -15,6 +15,7 @@ public class Gamepad_cursor : MonoBehaviour
     private GameObject misty;
     public bool cursor_is_over_plattaform = false;
     private GameObject actual_gameepad_target_platafform;
+    Vector2 stick_movement;
 
     private void Start()
     {
@@ -30,7 +31,19 @@ public class Gamepad_cursor : MonoBehaviour
             GameObject mouse_icon = GameObject.Find("Mouse_icon");
             mouse_icon.GetComponent<SpriteRenderer>().enabled = false;
         }
-        rb.velocity = new Vector2(x * sensibility * Time.deltaTime, -y * sensibility * Time.deltaTime);
+        rb.velocity = new Vector2(stick_movement.x * sensibility * Time.deltaTime, stick_movement.y * sensibility * Time.deltaTime);
+    }
+
+
+    public void MoveCursor(InputAction.CallbackContext context)
+    {
+
+        stick_movement = context.ReadValue<Vector2>();
+        //stick_movement.Normalize();
+
+        Debug.Log("passou");
+
+        
     }
 
 
