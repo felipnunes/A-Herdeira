@@ -89,12 +89,7 @@ public class Magia_plataforma_rosa : MonoBehaviour
         {
             misty_colidindo = true;
         }
-        //Check for Ground collisions
-        else if (collision.tag == "chao")
-        {
-            misty_colidindo = true;
-            Debug.Log("colidiu com a tag chao");
-        }
+        
         else
         {
             misty_colidindo = false;

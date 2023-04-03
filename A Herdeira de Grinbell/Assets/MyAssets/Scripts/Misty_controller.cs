@@ -12,24 +12,30 @@ public class Misty_controller : MonoBehaviour
     public int quantidade_magias_vermelha;
     private Collider2D capsuleCollider;
     public LayerMask chaoLayer;
+    private ParticleSystem dirt;
+    public float direction;
 
     void Start()
     {
         on_ground = false;
         rb = this.GetComponent<Rigidbody2D>();
         capsuleCollider = this.GetComponent<CapsuleCollider2D>();
+        dirt = this.GetComponent<ParticleSystem>();
     }
 
     void Update()
-    {   
+    {
         CheckForOnGround();
-
+        if (on_ground && rb.velocity.x != 0)
+        {
+            CreateDirt();
+        }
 
     }
 
     private void FixedUpdate()
     {
-        float direction = Input.GetAxisRaw("Horizontal");
+        direction = Input.GetAxisRaw("Horizontal");
 
         rb.velocity = new Vector2(direction * velocity * Time.deltaTime, rb.velocity.y);
     }
@@ -37,9 +43,11 @@ public class Misty_controller : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext context)
     {
-        
+
         if (on_ground && context.started)
         {
+            CreateDirt();
+            this.GetComponent<AudioSource>().Play();
             rb.AddForce(new Vector2(0, 1) * jump_force);
         }
     }
@@ -72,6 +80,7 @@ public class Misty_controller : MonoBehaviour
         // Check if the ray hit anything
         if (hit.collider != null)
         {
+            
             on_ground = true;
         }
         else
@@ -80,4 +89,11 @@ public class Misty_controller : MonoBehaviour
         }
 
     }
+
+    private void CreateDirt()
+    {
+        dirt.Play();
+    }
+
+
 }
