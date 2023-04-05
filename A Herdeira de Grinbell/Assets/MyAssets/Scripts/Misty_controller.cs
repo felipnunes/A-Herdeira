@@ -15,6 +15,8 @@ public class Misty_controller : MonoBehaviour
     private ParticleSystem dirt;
     public float direction;
 
+
+
     void Start()
     {
         on_ground = false;
@@ -25,6 +27,9 @@ public class Misty_controller : MonoBehaviour
 
     void Update()
     {
+
+        UnityEngine.Debug.Log(rb.velocity.x);
+
         CheckForOnGround();
         if (on_ground && rb.velocity.x != 0)
         {

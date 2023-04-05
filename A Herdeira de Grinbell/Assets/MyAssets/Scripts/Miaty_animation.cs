@@ -23,7 +23,17 @@ public class Miaty_animation : MonoBehaviour
     // Update is called once per frame
     void Update() {
 
-        
+
+
+        if (Mathf.Abs(rb.velocity.x) > 2f)
+        {
+            animator.SetBool("correndo", true);
+        }
+        else
+        {
+            animator.SetBool("correndo", false);
+        }
+
 
         if (rb.velocity.x < 0)
         {
