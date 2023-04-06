@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 
 public class Miaty_animation : MonoBehaviour
@@ -24,8 +25,9 @@ public class Miaty_animation : MonoBehaviour
     void Update() {
 
 
+       
 
-        if (Mathf.Abs(rb.velocity.x) > 2f)
+        if (Mathf.Abs(rb.velocity.x) > 2f )
         {
             animator.SetBool("correndo", true);
         }
@@ -33,7 +35,6 @@ public class Miaty_animation : MonoBehaviour
         {
             animator.SetBool("correndo", false);
         }
-
 
         if (rb.velocity.x < 0)
         {

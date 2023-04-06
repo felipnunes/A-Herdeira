@@ -656,6 +656,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level_loader_circle
       objectReference: {fileID: 0}
+    - target: {fileID: 7526718380612421907, guid: 17fa411a2b2579e4481a5bef752dd9da,
+        type: 3}
+      propertyPath: m_TagString
+      value: LevelLoader
+      objectReference: {fileID: 0}
     - target: {fileID: 7526718380612421917, guid: 17fa411a2b2579e4481a5bef752dd9da,
         type: 3}
       propertyPath: m_RootOrder

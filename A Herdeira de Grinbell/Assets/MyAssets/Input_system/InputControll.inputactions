@@ -61,7 +61,7 @@
                     "id": "f28551d0-14c3-4d02-91fe-6232f7dbf2f2",
                     "path": "<Joystick>/stick/left",
                     "interactions": "",
-                    "processors": "",
+                    "processors": "AxisDeadzone",
                     "groups": "",
                     "action": "Walk",
                     "isComposite": false,

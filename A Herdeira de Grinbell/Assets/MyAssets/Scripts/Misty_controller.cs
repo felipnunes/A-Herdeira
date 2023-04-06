@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
@@ -28,8 +29,6 @@ public class Misty_controller : MonoBehaviour
     void Update()
     {
 
-        UnityEngine.Debug.Log(rb.velocity.x);
-
         CheckForOnGround();
         if (on_ground && rb.velocity.x != 0)
         {
@@ -51,6 +50,8 @@ public class Misty_controller : MonoBehaviour
 
         if (on_ground && context.started)
         {
+            rb.velocity = new Vector2(0,0);
+
             CreateDirt();
             this.GetComponent<AudioSource>().Play();
             rb.AddForce(new Vector2(0, 1) * jump_force);
@@ -62,9 +63,13 @@ public class Misty_controller : MonoBehaviour
 
         if (context.started)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            GameObject levelLoader = GameObject.FindGameObjectWithTag("LevelLoader");
+            StartCoroutine(levelLoader.GetComponent<Scene_controller>().ReestartRoutine());
+            
         }
     }
+
+    
 
     public bool GetOnGround()
     {

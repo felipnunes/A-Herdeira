@@ -13,6 +13,7 @@ TagManager:
   - Bloco_vermelho
   - Orb_Light
   - GamepadCursor
+  - LevelLoader
   layers:
   - Default
   - TransparentFX

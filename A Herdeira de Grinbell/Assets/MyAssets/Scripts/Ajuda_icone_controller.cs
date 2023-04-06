@@ -11,8 +11,11 @@ public class Ajuda_icone_controller : MonoBehaviour
 
     private void Start()
     {
-         clipOpen = Resources.Load<AudioClip>("Resources/openParchment.wav");
-         clipClose = Resources.Load<AudioClip>("Resources/closeParchment.wav");
+
+
+        clipOpen = Resources.Load<AudioClip>("openParchment");
+        clipClose = Resources.Load<AudioClip>("closeParchment");
+
     }
 
     // Update is called once per frame

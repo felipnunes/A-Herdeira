@@ -25,5 +25,12 @@ public class Scene_controller : MonoBehaviour
 
     }
 
-   
+     public IEnumerator ReestartRoutine()
+    {
+        transition_animation.SetTrigger("Start");
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+
 }

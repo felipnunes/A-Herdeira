@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4597121720835131232}
   m_Layer: 9
   m_Name: Level_loader_circle
-  m_TagString: Untagged
+  m_TagString: LevelLoader
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -39,10 +39,6 @@ public class Gamepad_cursor : MonoBehaviour
 
         stick_movement = context.ReadValue<Vector2>();
         //stick_movement.Normalize();
-
-        Debug.Log("passou");
-
-        
     }
 
 
