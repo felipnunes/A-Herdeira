@@ -4,7 +4,6 @@ using UnityEngine.SceneManagement;
 
 public class Scene_controller : MonoBehaviour
 {
-
     public Animator transition_animation;
     public void Transition(string cena) 
     {

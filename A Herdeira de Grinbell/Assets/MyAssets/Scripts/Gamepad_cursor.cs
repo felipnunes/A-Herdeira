@@ -18,6 +18,7 @@ public class Gamepad_cursor : MonoBehaviour
 
     private void Start()
     {
+        misty = GameObject.FindGameObjectWithTag("Misty");
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -66,7 +67,7 @@ public class Gamepad_cursor : MonoBehaviour
 
         if (context.canceled)
         {
-            if (actual_gameepad_target_platafform.name.Contains("Plataforma_rosa") )
+            if (actual_gameepad_target_platafform.name.Contains("Plataforma_rosa"))
             {
                 actual_gameepad_target_platafform.GetComponent<Magia_plataforma_rosa>().esta_sendo_segurado = false;
               
@@ -83,7 +84,6 @@ public class Gamepad_cursor : MonoBehaviour
     {
         if (!actual_gameepad_target_platafform.GetComponent<Magia_plataforma_rosa>().esta_sendo_segurado)
         {
-            Debug.Log("Ativa Magia Rosa!");
             actual_gameepad_target_platafform.GetComponent<Magia_plataforma_rosa>().esta_sendo_segurado = true;
         }
         
@@ -110,7 +110,7 @@ public class Gamepad_cursor : MonoBehaviour
             actual_gameepad_target_platafform = hit.transform.gameObject;
 
             cursor_is_over_plattaform = true;
-            if (actual_gameepad_target_platafform.GetComponent<Magia_plataforma_rosa>().misty.GetComponent<Misty_controller>().quantidade_magias_rosa > 0)
+            if (actual_gameepad_target_platafform.GetComponent<Magia_plataforma_rosa>().misty.GetComponent<Misty_controller>().quantidade_magias_rosa > 0 && misty.GetComponent<Misty_controller>().GetOnGround() == true)
             {
                 actual_gameepad_target_platafform.GetComponent<Magia_plataforma_rosa>().misty.GetComponent<Misty_controller>().quantidade_magias_rosa -= 1;
 
@@ -122,7 +122,6 @@ public class Gamepad_cursor : MonoBehaviour
             cursor_is_over_plattaform = false;
         }
 
-        Debug.Log(cursor_is_over_plattaform);
     }
 
 }
